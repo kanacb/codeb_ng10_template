@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { RestclientService } from '../../services/restclient.service';
+import { RestclientService } from '../../../services/restclient.service';
+import { style } from '@angular/animations';
 
 @Component({
     selector: 'app-dashboard',

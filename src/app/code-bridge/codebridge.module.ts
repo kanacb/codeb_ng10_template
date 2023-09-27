@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CodeBridgeRoutingModule } from './codebridge-routing.module';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { DashboardComponent } from './components/app/dashboard/dashboard.component';
 
 @NgModule({
     declarations: [DashboardComponent],

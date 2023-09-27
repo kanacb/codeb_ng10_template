@@ -12,7 +12,7 @@ import { TopbarComponent } from './code-bridge/components/app/topbar/topbar.comp
 import { FooterComponent } from './code-bridge/components/app/footer/footer.component';
 
 @NgModule({
-    declarations: [AppComponent, AccountComponent, TopbarComponent],
+    declarations: [AppComponent, AccountComponent, TopbarComponent,FooterComponent],
     imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule, PrimeModule, CodeBridgeModule],
     providers: [],
     bootstrap: [AppComponent]
